@@ -1,0 +1,55 @@
+PODS:
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - CYLTabBarController (1.7.0)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
+  - NBSwipePageView (0.1)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+
+DEPENDENCIES:
+  - BlocksKit (~> 2.2.5)
+  - CYLTabBarController (~> 1.7.0)
+  - Masonry
+  - MBProgressHUD
+  - MJRefresh
+  - NBSwipePageView (from `https://github.com/xuzhe/NBSwipePageView.git`)
+  - SDWebImage
+
+EXTERNAL SOURCES:
+  NBSwipePageView:
+    :git: https://github.com/xuzhe/NBSwipePageView.git
+
+CHECKOUT OPTIONS:
+  NBSwipePageView:
+    :commit: d225421d08f027090bcb56775f3268d857ccd0ee
+    :git: https://github.com/xuzhe/NBSwipePageView.git
+
+SPEC CHECKSUMS:
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  CYLTabBarController: 925ec82de4ae6f89b6277c8d406853d2d29b5562
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  NBSwipePageView: 70ac42baadaef15efa2e98edc5fc572f37e4c4b7
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+
+PODFILE CHECKSUM: e3fe79f8fb546a20268ea405631a5c002b4ddcff
+
+COCOAPODS: 1.0.1
